@@ -1,0 +1,134 @@
+
+
+
+
+:root {
+  --lv_blue: #001c4c;
+  --lv_bckgGrey: #31363A;
+  --lv_lightGrey: #B8B8B8;
+  --font-size: 1.1rem;
+}
+
+
+
+@font-face{
+  font-family: 'TiemposHeadlineLight';
+  src: url('../src/assets/fonts/Tiempos/TiemposHeadline-Light.ttf') format('ttf');
+}
+
+@font-face{
+  font-family: 'TiemposHeadlineAppBlack';
+  src: url('../src/assets/fonts/Tiempos/TiemposHeadlineApp-Black.ttf') format('ttf');
+}
+
+@font-face{
+  font-family: 'TiemposHeadlineAppBold';
+  src: url('../src/assets/fonts/Tiempos/TiemposHeadlineApp-Bold.ttf') format('ttf');
+}
+
+@font-face{
+  font-family: 'TiemposHeadlineAppMedium';
+  src: url('../src/assets/fonts/Tiempos/TiemposHeadlineApp-Medium.woff') format('woff');
+}
+
+@font-face{
+  font-family: 'TiemposHeadlineAppRegular';
+  src: url('../src/assets/fonts/Tiempos/TiemposHeadlineApp-Regular.ttf') format('ttf');
+}
+
+@font-face{
+  font-family: 'TiemposHeadlineAppsemibold';
+  src: url('../src/assets/fonts/Tiempos/TiemposHeadlineApp-Semibold.ttf') format('ttf');
+}
+
+
+
+
+
+@font-face{
+  font-family: 'TiemposTextBold';
+  src: url('../src/assets/fonts/Tiempos/TiemposText-Bold.ttf') format('ttf');
+}
+
+@font-face{
+  font-family: 'TiemposTextBoldItalic';
+  src: url('../src/assets/fonts/Tiempos/TiemposText-BoldItalic.ttf') format('ttf');
+}
+
+@font-face{
+  font-family: 'TiemposTextMedium';
+  src: url('../src/assets/fonts/Tiempos/TiemposText-Medium.ttf') format('ttf');
+}
+
+@font-face{
+  font-family: 'TiemposTextMediumItalic';
+  src: url('../src/assets/fonts/Tiempos/TiemposText-MediumItalic.ttf') format('ttf');
+}
+
+@font-face{
+  font-family: 'TiemposTextRegular';
+  src: url('../src/assets/fonts/Tiempos/TiemposText-Regular.ttf') format('ttf');
+  src: url('../src/assets/fonts/Tiempos/TiemposText-Regular.woff') format('woff');
+
+}
+
+@font-face{
+  font-family: 'TiemposTextRegularItalic';
+  src: url('../src/assets/fonts/Tiempos/TiemposTextApp-RegularItalic.ttf') format('ttf');
+}
+
+@font-face{
+  font-family: 'TiemposTextSemibold';
+  src: url('../src/assets/fonts/Tiempos/TiemposText-Semibold.ttf') format('ttf');
+}
+
+@font-face{
+  font-family: 'TiemposTextSemiboldItalic';
+  src: url('../src/assets/fonts/Tiempos/TiemposText-SemiboldItalic.ttf') format('ttf');
+}
+
+@font-face{
+  font-family: 'TiemposTextAppRegular';
+  src: url('../src/assets/fonts/Tiempos/TiemposTextApp-Regular.ttf') format('ttf');
+}
+
+@font-face{
+  font-family: 'TiemposTextAppSemibold';
+  src: url('../src/assets/fonts/Tiempos/TiemposTextApp-Semibold.ttf') format('ttf');
+}
+
+
+
+@font-face{
+  font-family: 'Solari';
+  src: url('../src/assets/fonts/Solari.woff') format('woff');
+}
+
+
+
+
+
+
+
+
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+body{
+  padding: 0;
+  margin: 0;
+  font-size: var(--font-size);
+}
+
+h1,h2,h3, h4, h5, h6, p {
+  margin: 0;
+}
